@@ -64,7 +64,7 @@ def main():
     # create_measurement(user_id=input("Укажите ID пользователя: "), date=now, hp=input("Введите верхнее давление: "), lp=input("Введите нижнее давление: "), heart_rate=input("Укажите частоту сердцебиения: "))
     # get_users()
     # get_measurements(_user_id=input("Укажите ID пользователя: "))
-    # show_diagramm(_user_id=input("Укажите ID пользователя: "))
+    show_diagramm(_user_id=input("Укажите ID пользователя: "))
 
 if __name__ == "__main__":
     main()
